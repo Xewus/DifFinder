@@ -8,6 +8,8 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
+DATE_FORMAT = '%d-%m-%Y %H:%M:%S'
+
 DATE = r'[0-3][0-9]-[0,1][0-9]-[2][0][2][0-5] [0-2][0-9]:[0-5][0-9]:[0-5][0-9]'
 
 URI = r'\b[a-z, A-Z]:\\[\w,\\,.]*\b|./[\w, /, .]*\b'
